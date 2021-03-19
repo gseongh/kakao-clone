@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+	   {
+                "appID": "7Q6KE3F287.com.harex.ubpay",
+                "paths": ["*"]
+            },
+        ]
+    }
+}
