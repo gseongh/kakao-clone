@@ -1,36 +1,45 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
-  <head>
-  <meta charset="utf-8">
-  <meta property="og:title" content="울산페달(픽업/배달) 서비스 오픈">
-  <meta property="og:url" content="http://ubpay.com/">
-  <meta property="og:description" content="울산페달 몰라? 주문수수료0% 배달수수료0% 라고! 세계최초 울산페달">
-  <meta property="og:image" content="http://ubpay.com/ulsanmov/ulsan.jpg">
-  <meta property="og:image:type" content="image/jpg">
-  <meta property="og:image:width" content="800">
-  <meta property="og:image:height" content="400">
-  <meta property="og:site_name" content="울산페달">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="울산페달(픽업/배달) 서비스 오픈">
-  <meta name="twitter:url" content="http://ubpay.com/">
-  <meta name="twitter:image" content="http://ubpay.com/ulsanmov/ulsan.jpg">
-  <meta name="twitter:description" content="울산페달 몰라? 주문수수료0% 배달수수료0% 라고! 세계최초 울산페달">
+<head>
+    <title>UBpay</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0,user-scalable=no,minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/resources/css/default.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/ub_modal.css">
+<script type="text/javascript" src="/resources/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/resources/js/jquery.accordion.2.0.js"></script>
+<script type="text/javascript" src="/resources/js/ub_api.js?202004131050"></script>
+<script type="text/javascript" src="/resources/js/common.js"></script>
+<script type="text/javascript" src="/resources/js/ub_modal.js"></script>
+<script type="text/javascript" src="/resources/js/toast.min.js"></script>
 
-    <title>울산페달 홍보동영상</title>
     <style>
-      body { margin:0; padding:0;}
-      video { width: 100%; display: block; margin: 0 auto; margin-bottom:40px; zoom: 2.5;}
-      .btn { display:block; margin: 10px 10%; bottom: 0; left: 0; width: 80%; font-size: 40px; line-height: 120px; text-align: center; font-weight: bold; color: #fff; background: #0046af; text-decoration:none; border-radius: 30px; border-bottom: 12px #002B6B solid;}
+        .app_moving {position: absolute; top:50%; transform: translateY(-50%); left:0; right:0;}
+        .app_moving .con {padding-top: 6.4rem; background:url(/resources/images/download/icon_ub_service.png) no-repeat center top; background-size: 5.3rem; text-align: center;}
+        .app_moving .con span {font-size: 1.6rem; line-height: 1.2;}
     </style>
+<script type="text/javascript">
+$( document ).ready(function() {
 
-  </head>
-  <body>
-    <video playsinline autoplay controls>
-      <source src="http://ubpay.com/ulsanmov/ulsanmov_tts.mp4" type="video/mp4">
-      <strong>Your browser does not support the video tag.</strong>
-    </video>
-    <a href="https://regist.ubpay.com/ktpay" class="btn">울산페달 가맹점 신청하기</a>
-  </body>
+
+
+    if (ub.util.isIOS()) {
+
+        //유니버셜 링크
+        window.location="https://universallink.ubpay.com/goodpay?param=eXWzywWOGHhmhE35RiXSztNjI2Topm3htiUOp45rCWT5yeXfN2eXwdrPlDbhaY7qmpwb03GYdJUlWs52fWAz48wSk/mtuCtt OF/4k4192FiNTxzZ7yms5m7MPVM9ExPcFGdjkOc0pfitl2kGWy1Fz8zkJ4JpQJKEWNeH5TjnmgsV h2mYDxg5TBplG6Km/7lOFi5F3J4 ZVeIZwOnarqJM5pgfNLzcgk 02UxAgE9o=";
+
+
+    } else {
+        window.location="https://ubpay.page.link/?link=https://com.harex.android.ubpay/goodpay?param=eXWzywWOGHhmhE35RiXSztNjI2Topm3htiUOp45rCWT5yeXfN2eXwdrPlDbhaY7qmpwb03GYdJUlWs52fWAz48wSk/mtuCtt OF/4k4192FiNTxzZ7yms5m7MPVM9ExPcFGdjkOc0pfitl2kGWy1Fz8zkJ4JpQJKEWNeH5TjnmgsV h2mYDxg5TBplG6Km/7lOFi5F3J4 ZVeIZwOnarqJM5pgfNLzcgk 02UxAgE9o=&apn=com.harex.android.ubpay";
+    }
+
+});
+</script>
+</head>
+<body>
+<div class="app_moving">
+    <div class="con"><span>울산페이 배달서비스<br> [울산페달] 이용을 위해 이동중입니다.</span></div>
+</div>
+</body>
 </html>
